@@ -1,0 +1,28 @@
+
+# Getting Started
+## How useful is this document to you? 
+If you are new to programming and  Integrated Development Environments keep reading. 
+
+If you are a programmer but have been using 'notepad' or 'gedit' keep reading because you won't want to use them again.
+
+If you have been using other IDEs such as 'Visual Studio', 'Anjuta', 'KDevelop','Eclipse', then this is just a reference document.
+
+## What is an IDE?
+An Integrated Development Environment is a visual programming environment that includes an editor that understands and reponds to the language with color,highlight and assistance. An IDE also assists in compiling and debugging a program - No more command lines! 
+
+NOTE: If you havn't yet installed PropellerIDE then this would be a good time to do so -details are in the next section 1.1.1.  And while you do that don't forget to install the FTDI drivers in section 1.1.2 so PropellerIDE can connect to your Propeller Board. We don't want any loose propellers!
+Get the install started and come back here.
+
+## What is PropellerIDE
+The main panel  is an editor that understands the spin language. Below is a screenshot of a simple program.
+It understands that `'` is a comment and changes the colour 
+Similarly CON,OBJ and PUB sections have a different background and the words themselves are Block fonts
+It has line numbers for finding compile errors
+The operators `()=:| ` etc are also in a color to help distinguish the syntax. It also shows invalid usage.
+
+On the left hand panel is the list of OBJ files that have been included along with the public and private objects (PUB, PRI) and constants (CON). To find out more right clicking moves the focus to that item.
+
+.Block: image
+image::PropellerIDEwindow.png[]
+
+In the following sections we will look at the menues and the items mentioned above in more detail.
